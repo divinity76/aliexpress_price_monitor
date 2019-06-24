@@ -77,7 +77,7 @@ while (true) {
                     continue;
                 }
                 if ($first[$key] != $val) {
-                    hhb_var_dump($first,$key,$val,$first[$key],$first[$key]===$val) & die();
+                    //hhb_var_dump($first,$key,$val,$first[$key],$first[$key]===$val) & die();
                     $changed = true;
                     break;
                 }
